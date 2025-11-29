@@ -1,0 +1,32 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Modelos guardados
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.model
+saved_models/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset (muy pesado)
+*.zip
+breast-histopathology-images/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
